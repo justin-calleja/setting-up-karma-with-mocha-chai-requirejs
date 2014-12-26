@@ -23,12 +23,6 @@ require.config({
     'lodash': 'lib/lodash/dist/lodash'
   },
 
-  shim: {
-    'lodash': {
-      exports: '_'
-    }
-  },
-
   // dynamically load all test files
   deps: allTestFiles,
 
